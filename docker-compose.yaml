@@ -1,0 +1,8 @@
+services:
+  kalman-filter:
+    container_name: kalman-filter
+    build: ./src
+    volumes:
+      - ./src:/main
+    command: tail -F anything.js
+    # command: g++ main.cpp -I/usr/include/python3.11 -lpython3.11 -o myapp.out
