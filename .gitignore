@@ -33,3 +33,7 @@
 
 
 src/matplotlib-cpp
+src/eigen
+src/test.py
+
+.vscode

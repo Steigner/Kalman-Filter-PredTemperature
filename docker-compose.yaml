@@ -5,4 +5,5 @@ services:
     volumes:
       - ./src:/main
     command: tail -F anything.js
-    # command: g++ main.cpp -I/usr/include/python3.11 -lpython3.11 -o myapp.out
+    # command: g++ main.cpp -std=c++20 -o temp_pred_app.out
+    # command: ./temp_pred_app.out
